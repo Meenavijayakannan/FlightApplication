@@ -18,7 +18,7 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 @Entity
-public class FlightDto {
+public class FlightApp {
 	@Id
 	private int flightNumber;
 	@Column(nullable=false,unique=true)
